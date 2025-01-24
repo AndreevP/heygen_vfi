@@ -47,7 +47,7 @@ def save_video_from_numpy(video_array, output_path, fps=25):
         raise ValueError("Input video_array must have shape (num_frames, height, width, channels). "
                          "Channels must be 1 (grayscale) or 3 (RGB).")
 
-    iio.imwrite(output_path, video_array, fps=fps)
+    iio.imwrite(output_path, video_array, fps=fps, quality=7)
     print(f"Video successfully saved at {output_path}")
 
 def parse_arguments():

@@ -1,0 +1,1 @@
+Code is adopted from https://github.com/MCG-NJU/VFIMamba with minimal changes for inference interface (see inference_wrapper.py)
