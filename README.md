@@ -13,7 +13,7 @@ This repository contains a solution for creating an output video by combining or
 
 ### Important Parameters
 
-- **`time_indent`**: This parameter is selected to ensure the transition between Frame A-adjacent footage and Frame B-adjacent footage is smooth, minimizing the difficulty of interpolation. The optimal value found is time_indent = 0. More details about this selection process are available in find_indent.ipynb.
+- **`time_indent`**: This parameter is selected to ensure the transition between Frame A-adjacent footage and Frame B-adjacent footage is smooth, minimizing the difficulty of interpolation. The optimal value found is time_indent = 0. More details about this selection process are available in `find_indent.ipynb`.
 - **`time_interp`**: Controls the length of the interpolated segment. Through experimentation, using 3 frames (which is 3/25 of a second) produces a smooth interpolation.
 
 ## Downloading the Input Video and Checkpoints
