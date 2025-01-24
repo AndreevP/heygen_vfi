@@ -20,7 +20,6 @@ This repository contains a solution for creating an output video by combining or
 
 ```bash
 wget https://resource2.heygen.ai/video/5de50af7182f462b98178064f808d7d8/1280x720.mp4 -O original.mp4
-
 mkdir -p ./ckpt
 wget https://huggingface.co/MCG-NJU/VFIMamba_ckpts/resolve/main/ckpt/VFIMamba.pkl -O ./ckpt/VFIMamba.pkl
 ```
@@ -33,12 +32,18 @@ wget https://huggingface.co/MCG-NJU/VFIMamba_ckpts/resolve/main/ckpt/VFIMamba.pk
 - CUDA 12.4
 - 8 GB GPU memory
 
+**Clone repo**
+
+git clone https://github.com/AndreevP/heygen_vfi
+cd heygen_vfi
+
 **Set up a virtual environment and install dependencies:**
 
 ```bash
 conda create -n heygen_test python=3.10
-conda activate myeheygen_testnv
+conda activate heygen_test
 conda install nvidia/label/cuda-12.4.0::cuda-toolkit
+conda install conda-forge::libgl
 pip install -r requirements.txt
 ```
 
