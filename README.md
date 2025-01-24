@@ -34,8 +34,10 @@ wget https://huggingface.co/MCG-NJU/VFIMamba_ckpts/resolve/main/ckpt/VFIMamba.pk
 
 **Clone repo**
 
+```bash
 git clone https://github.com/AndreevP/heygen_vfi
 cd heygen_vfi
+```
 
 **Set up a virtual environment and install dependencies:**
 
