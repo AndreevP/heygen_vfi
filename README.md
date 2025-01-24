@@ -19,7 +19,7 @@ This repository contains a solution for creating an output video by combining or
 ## Downloading the Input Video and Checkpoints
 
 ```bash
-wget https://resource2.heygen.ai/video/5de50af7182f462b98178064f808d7d8/1280x720.mp4 -O input.mp4
+wget https://resource2.heygen.ai/video/5de50af7182f462b98178064f808d7d8/1280x720.mp4 -O original.mp4
 
 mkdir -p ./ckpt
 wget https://huggingface.co/MCG-NJU/VFIMamba_ckpts/resolve/main/ckpt/VFIMamba.pkl -O ./ckpt/VFIMamba.pkl
