@@ -32,7 +32,6 @@ wget https://huggingface.co/MCG-NJU/VFIMamba_ckpts/resolve/main/ckpt/VFIMamba.pk
 - NVIDIA driver 550.120 (or newer)
 - CUDA 12.4
 - 8 GB GPU memory
-- Python 3.10
 
 **Set up a virtual environment and install dependencies:**
 
