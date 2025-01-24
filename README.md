@@ -37,9 +37,9 @@ wget https://huggingface.co/MCG-NJU/VFIMamba_ckpts/resolve/main/ckpt/VFIMamba.pk
 **Set up a virtual environment and install dependencies:**
 
 ```bash
-python3.10 -m venv heygen_test
-source heygen_test/bin/activate
-
+conda create -n heygen_test python=3.10
+conda activate myeheygen_testnv
+conda install nvidia/label/cuda-12.4.0::cuda-toolkit
 pip install -r requirements.txt
 ```
 
